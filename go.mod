@@ -1,4 +1,4 @@
-module github.com/ocfbnj/hello
+module github.com/ocfBNj/hello
 
 go 1.15
 
