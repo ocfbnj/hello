@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/ocfBNj/hello/server"
+	"github.com/ocfbnj/hello/server"
 )
 
 func main() {
