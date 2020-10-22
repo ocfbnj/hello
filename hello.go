@@ -1,11 +1,13 @@
 package main
 
 import (
-	"log"
-
-	"github.com/ocfbnj/hello/server"
+	"fmt"
 )
 
 func main() {
-	log.Fatal(server.FileServer(":80", "C:/"))
+	str := "你好"
+
+	for _, v := range str {
+		fmt.Printf("0x%x\n", v)
+	}
 }
